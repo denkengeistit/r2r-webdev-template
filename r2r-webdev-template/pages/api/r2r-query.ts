@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { r2rClient } from "r2r-js";
 
-const client = new r2rClient("http://localhost:8000");
+const client = new r2rClient("http://chat.escaffinity.com:7272");
 
 export default async function handler(
   req: NextApiRequest,
